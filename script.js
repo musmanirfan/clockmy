@@ -8,7 +8,7 @@ function formatedTime(date) {
     hours = hours ? hours : 12;
     let minutesStr = minutes < 10 ? '0' + minutes : minutes.toString();
     let secondsStr = seconds < 10 ? '0' + seconds : seconds.toString();
-    let hoursStr = hours < 10 ? '0' + hours : seconds.toString();
+    let hoursStr = hours < 10 ? '0' + hours : hours.toString();
     return `${hoursStr}:${minutesStr}:${secondsStr} ${time}`;
 }
 ;
